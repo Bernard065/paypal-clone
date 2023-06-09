@@ -1,1 +1,1 @@
-# Paypal Homepage Clone # paypal-clone
+# paypal-clone

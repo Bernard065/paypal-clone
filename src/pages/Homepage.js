@@ -3,6 +3,7 @@ import Hero from '../components/HomePage/Hero'
 import SubHero from '../components/HomePage/SubHero'
 import Section from '../components/HomePage/Section'
 import Connects from '../components/HomePage/Connects'
+import ActiveAccounts from '../components/HomePage/ActiveAccounts'
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
       <SubHero />
       <Section />
       <Connects />
+      <ActiveAccounts />
     </div>
   )
 }

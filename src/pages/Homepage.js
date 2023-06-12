@@ -5,6 +5,7 @@ import Section from '../components/HomePage/Section'
 import Connects from '../components/HomePage/Connects'
 import ActiveAccounts from '../components/HomePage/ActiveAccounts'
 import Signup from '../components/HomePage/Signup'
+import Footer from '../components/Footer/Footer'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Connects />
       <ActiveAccounts />
       <Signup />
+      <Footer />
     </div>
   )
 }

@@ -1,9 +1,31 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import Footer from "../components/Footer/Footer";
 
-const Error = () => {
+export default function Error() {
   return (
-    <div>Error</div>
-  )
-}
+    <>
+      <section>
+        <article
+          style={{
+            backgroundColor: "#333333",
+          }}
+          className="text-white text-center py-20 px-8"
+        >
+          <h1 className="text-4xl lg:text-7xl font-light mb-2">
+            Something's not right.
+          </h1>
+          <p>That page doesn't exist.</p>
+        </article>
 
-export default Error
+        <article className="py-20 text-center px-8">
+          <p className="mb-8">We can’t find a page with the url you entered.</p>
+          <Link to="/" className="text-blue-600 font-bold hover:underline">
+            Back to Homepage
+          </Link>
+        </article>
+      </section>
+      <Footer />
+    </>
+  );
+}
